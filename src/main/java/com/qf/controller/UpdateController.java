@@ -36,6 +36,9 @@ public class UpdateController extends HttpServlet {
 
         resp.sendRedirect("/findAll");
     }
-
+    
+    // 重写doget方法
+    public void doget(HttpServletRequest req, HttpServletResponse resp) {
+    }
 
 }
